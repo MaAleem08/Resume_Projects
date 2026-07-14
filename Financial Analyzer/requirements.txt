@@ -1,0 +1,8 @@
+streamlit
+crewai
+langchain
+langchain-community
+faiss-cpu
+pdfplumber
+ollama
+langchain_text_splitters
