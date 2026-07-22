@@ -5,9 +5,9 @@ from groq import Groq
 from langgraph.graph import StateGraph, END
 from vector_store import vector_store
 
-load_dotenv(r'C:\Users\Md Aleem\Desktop\GenAi\groq\groq_key.env')
+load_dotenv()
 
-client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
+client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 MODEL_NAME = "llama-3.3-70b-versatile"
 
 
